@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "arial", "veredana";
+}
+li{
+	background:; 
+	color:;
+	width:300px;
+	padding: 15px; 
+	list-style: none;
+}
+
+.registro{
+	background: #026b64;
+	border-radius: 6px 6px 0px 0px;
+	font-color: white;
+	border-bottom: 1px solid white;
+	text-align: center;
+}
+
+.campos{
+	background: #d6d6d4;
+	border-bottom: 1px solid white;
+	cursor: text;
+	text-align: left;
+
+}
+
+abbr{
+	text-decoration: none;
+}
