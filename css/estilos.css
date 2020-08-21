@@ -1,6 +1,9 @@
 @font-face {
 	font-family: "arial", "veredana";
 }
+ul{
+	list-style-type: none;
+}
 li{
 	background:; 
 	color:;
@@ -27,4 +30,17 @@ li{
 
 abbr{
 	text-decoration: none;
+}
+.imagen{
+
+	width: 500px;
+	margin-bottom: 1000px;
+	font-family: Veredana;
+	font-size:25px;
+	border-radius: 8px;
+	background: #157370;
+	margin-top: 50px;
+	color:rgb(132,224,221);
+	padding: 20px;
+	
 }
