@@ -1,3 +1,6 @@
+*{
+	margin:0;
+}
 /*
 EL CODIGO COMENTADO ES DE LOS EJERCICIOS ANTERIORES
 
@@ -87,7 +90,7 @@ img{
 
 }
 .flex-container {
- 
+ 	display: flex;
 }
 
 .flex-item1 {
