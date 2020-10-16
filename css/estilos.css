@@ -1,5 +1,28 @@
-*{
-	margin:0;
+*{margin:0;}
+@font-face
+{font-family: verdana;}
+.menu
+{
+	opacity: 0.8;
+	z-index:200;
+	overflow: hidden;
+	background: #2e707d;
+}
+
+.menu a
+{
+	float:left;
+	color: white;
+	padding:15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.menu a:hover
+{
+	color:black;
+	background: #153f47;
 }
 /*
 EL CODIGO COMENTADO ES DE LOS EJERCICIOS ANTERIORES
@@ -115,3 +138,4 @@ img{
 	justify-content: space-between;
 	background-image: url(../Actividad/imagenes/img-02.png);
 }
+

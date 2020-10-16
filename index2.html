@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Imagen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1">
+	<title>Menu adaptable</title>
 	<link rel="icon" href="imagenes/covid19.png">
 	<link rel="stylesheet" href="./css/estilos.css">
+	
+	<link rel="stylesheet" type="text/css" href="/your-path-to-fontawesome/css/all.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-	<center>
+	<div class="menu" id="menu-gral">
+	
+		<a href="#inicio" class="active">	
+			<i style="font-style: 0.9em;" class="fas fa-home"></i>&nbsp;Inicio
+		</a>
+		<a href="#Informacion">	
+			<i class="fas fa-info-circle"></i>&nbsp;Información
+		</a>
+		<a href="#Imagenes">	
+			<i class="fas fa-image"></i>&nbsp;Información
+		</a>
+		<a href="#registro">	
+			<i class="fas fa-user"></i>&nbsp;Regitrarse
+		</a>
+		<a href="javascript:void(0);" class="icono" onclick="functionMenu()">
+			<i class="fas fa-bars"></i>
+		</a>
+	</div>
+	<script src="menu.js"></script>
+	
+	<!--<center>
 		<ul>
 			<a href="#ancla1" style="text-decoration: none;">
 				<li class="imagen">
@@ -18,6 +43,6 @@
 					<img src="imagenes/dev.png" width="500" height="250" alt="imagen" title="imagen con filtro">
 				</li>
 		</ul>
-	</center>
+	</center>-->
 </body>
 </html>
