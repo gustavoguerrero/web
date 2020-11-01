@@ -8,9 +8,18 @@
 	src:url(fuentes/Mermaid1001.ttf);
 }
 
-.img{
-	max-width: 100%;
+img {
+	width: 70%;
+	border-radius: 200px;
 }
+
+/*img:hover{
+	        transform : scale(1.02);
+        -moz-transform : scale(1.02);     
+        -webkit-transform : scale(1.02);   
+        -o-transform : scale(1.02);        
+}*/
+
 .contenedores{
 	display: flex;
 	flex-wrap: wrap;
@@ -47,4 +56,17 @@
 	background-color: orange;
 	border: 1px solid white
 
+}
+
+.columnas:hover {
+	background-color: #FADB0C;
+	 transform : scale(1.02);
+     -moz-transform : scale(1.02);      /* Firefox */
+     -webkit-transform : scale(1.02);   /* Chrome - Safari */
+     -o-transform : scale(1.02);        /* Opera */
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
