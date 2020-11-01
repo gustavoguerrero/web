@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	font-family: Mermaid1001;
+}
+
+@font-face{
+	font-family: Mermaid1001;
+	src:url(fuentes/Mermaid1001.ttf);
+}
+
+.img{
+	max-width: 100%;
+}
+.contenedores{
+	display: flex;
+	flex-wrap: wrap;
+	color:black;
+	align-items: center;
+	border: 1px solid white
+}
+.titular{
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 40;
+	background: orange;
+	text-align: center;
+	border: 1px solid white
+}
+.icono{
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;	
+	background: orange;
+	text-align: center;
+	border: 1px solid white
+}
+
+.columnas{
+	flex-grow: 10;
+	color: yellow;
+	text-align: center;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	background-color: orange;
+	border: 1px solid white
+
+}
