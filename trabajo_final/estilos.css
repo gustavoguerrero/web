@@ -86,8 +86,14 @@ h1 {
 
 .fila-2 {
 	
-	background: url("https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWViZDFjNjRhYTVhNi5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.rx71qq84PUoHefywosuKq0Xu5MZAK5wbSfPIF7M04Po.webp") center;
+	/*background: url("https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNWViZDFjNjRhYTVhNi5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.rx71qq84PUoHefywosuKq0Xu5MZAK5wbSfPIF7M04Po.webp") center;*/
 	border: 3px solid white
+
+}
+
+#sueño {
+
+	border-radius: 0px;
 
 }
 
